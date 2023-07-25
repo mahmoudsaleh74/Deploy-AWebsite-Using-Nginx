@@ -1,3 +1,3 @@
 FROM nginx
-COPY ./Deploy-AWebsite-Using-Nginx/sample-website /usr/share/nginx/html/
+COPY ./sample-website /usr/share/nginx/html/
 Expose 80
